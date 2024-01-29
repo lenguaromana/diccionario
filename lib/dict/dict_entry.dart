@@ -11,6 +11,7 @@ class DictionaryEntry {
   final String theme1;
   final String theme2;
   final String theme3;
+  final Option<String> lrm;
   final Option<String> lat;
   final Option<String> iro;
   final Option<String> por;
@@ -32,6 +33,7 @@ class DictionaryEntry {
       this.theme1,
       this.theme2,
       this.theme3,
+      this.lrm,
       this.lat,
       this.iro,
       this.por,
@@ -49,6 +51,8 @@ class DictionaryEntry {
 
   Option<String> as(Language lang) {
     switch (lang) {
+      case Language.LenguaRomana:
+        return lrm;
       case Language.NeoLatino:
         return lat;
       case Language.LatinoInterRomanico:
