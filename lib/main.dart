@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:neolatino_dictionario/app.dart';
+import 'package:neoromano_diccionario/app.dart';
 
 void main() {
-  runApp(DictionarioApp());
+  runApp(DiccionarioApp());
 }

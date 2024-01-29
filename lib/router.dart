@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
-import 'package:neolatino_dictionario/config.dart';
-import 'package:neolatino_dictionario/dict/dict_cubit.dart';
-import 'package:neolatino_dictionario/search/search_page.dart';
-import 'package:neolatino_dictionario/widget/home.dart';
-import 'package:neolatino_dictionario/widget/preloader.dart';
+import 'package:neoromano_diccionario/config.dart';
+import 'package:neoromano_diccionario/dict/dict_cubit.dart';
+import 'package:neoromano_diccionario/search/search_page.dart';
+import 'package:neoromano_diccionario/widget/home.dart';
+import 'package:neoromano_diccionario/widget/preloader.dart';
 
 CustomTransitionPage<T> defaultTransition<T>({
   required BuildContext context,

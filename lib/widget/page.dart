@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:go_router/go_router.dart';
-import 'package:neolatino_dictionario/config.dart';
-import 'package:neolatino_dictionario/style.dart';
-import 'package:neolatino_dictionario/widget/header.dart';
+import 'package:neoromano_diccionario/config.dart';
+import 'package:neoromano_diccionario/style.dart';
+import 'package:neoromano_diccionario/widget/header.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class PageTemplate extends StatelessWidget {
@@ -86,7 +86,7 @@ class PageTemplate extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          localLink(context, "Dictionario", Config.Home),
+          localLink(context, "Diccionario", Config.Home),
           separator(),
           socialLink("Sito Officiale", Config.OfficialWebsiteUrl),
           separator(),

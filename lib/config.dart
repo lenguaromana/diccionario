@@ -2,11 +2,11 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 abstract class Config {
-  static const GithubUrl = "https://github.com/neolatino/dictionario";
-  static const OfficialWebsiteUrl = "https://neolatino.eu/";
+  static const GithubUrl = "https://github.com/lenguaromana/diccionario";
+  static const OfficialWebsiteUrl = "https://lenguaromana.github.io/";
   static const Home = "/";
-  static const RedditUrl = "https://www.reddit.com/r/neolatino";
-  static const DiscordUrl = "https://discord.gg/x2TyYKWx9V";
+  static const RedditUrl = "javascript:void(0);";
+  static const DiscordUrl = "javascript:void(0);";
 
   static bool isWebMobile() => (defaultTargetPlatform == TargetPlatform.iOS ||
       defaultTargetPlatform == TargetPlatform.android);

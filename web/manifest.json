@@ -1,11 +1,11 @@
 {
-  "name": "Dictionario Neolatino",
-  "short_name": "Dictionario Neolatino",
+  "name": "Diccionario Neoromano",
+  "short_name": "Diccionario Neoromano",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#0175C2",
   "theme_color": "#0175C2",
-  "description": "Dictionario Neolatino",
+  "description": "Diccionario Neoromano",
   "orientation": "portrait-primary",
   "prefer_related_applications": false,
   "icons": [

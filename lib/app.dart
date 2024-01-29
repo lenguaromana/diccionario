@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
-import 'package:neolatino_dictionario/dict/dict_cubit.dart';
-import 'package:neolatino_dictionario/router.dart';
+import 'package:neoromano_diccionario/dict/dict_cubit.dart';
+import 'package:neoromano_diccionario/router.dart';
 
-class DictionarioApp extends StatelessWidget {
-  DictionarioApp({Key? key}) : super(key: key);
+class DiccionarioApp extends StatelessWidget {
+  DiccionarioApp({Key? key}) : super(key: key);
 
   final GoRouter _router = router();
 
@@ -17,7 +17,7 @@ class DictionarioApp extends StatelessWidget {
       child: MaterialApp.router(
         routerConfig: _router,
         debugShowCheckedModeBanner: false,
-        title: 'Dictionario Neolatino',
+        title: 'Diccionario Neoromano',
       ),
     );
   }

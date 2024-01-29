@@ -1,9 +1,9 @@
-# Dictionario Neolatino
+# Diccionario Neoromano
 
-[Vàdere ad lo dictionario](https://neolatino.github.io/dictionario/#/)
+[Andar a lo diccionario](https://lenguaromana.github.io/diccionario/#/)
 
-### Qué èst lo neolatino?
+### Qué èst lo neoromano?
 
-Lo neolatino èst una koinè et un projècto per lo collectivo Vía Neolatina destinato ad facilitare la communicatione entre los parlantes de totas las lenguas romànicas.
+Lo neoromano èst una koinè et un projeito per lo colectivo Lengua Romana destinado a facilitar la comunicación entre los parlantes de todas las lenguas romànicas.
 
-Pòtes tropare plus informatione sopre lo neolatino (la historia, los principios de desegno, etc.) en [neolatino.eu](https://neolatino.eu/) .
+Pòdes trovare plus información sobre lo neoromano (la historia, los principios de desennio, etc.) en [lenguaromana.github.io](https://lenguaromana.github.io/) .

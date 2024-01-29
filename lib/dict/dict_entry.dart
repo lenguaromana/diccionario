@@ -1,6 +1,6 @@
 import 'package:collection/collection.dart';
 import 'package:diacritic/diacritic.dart';
-import 'package:neolatino_dictionario/dict/dict.dart';
+import 'package:neoromano_diccionario/dict/dict.dart';
 import 'package:oxidized/oxidized.dart';
 
 import 'language.dart';
@@ -51,7 +51,7 @@ class DictionaryEntry {
 
   Option<String> as(Language lang) {
     switch (lang) {
-      case Language.LenguaRomana:
+      case Language.NeoRomano:
         return lrm;
       case Language.NeoLatino:
         return lat;

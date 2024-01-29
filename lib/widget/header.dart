@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:go_router/go_router.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:neolatino_dictionario/config.dart';
-import 'package:neolatino_dictionario/style.dart';
+import 'package:neoromano_diccionario/config.dart';
+import 'package:neoromano_diccionario/style.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class Header extends StatelessWidget {
@@ -63,14 +63,14 @@ class Header extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
                     Text(
-                      "NEOLATINO",
+                      "NEOROMANO",
                       style: GoogleFonts.headlandOne(
                         fontSize: 23.0,
                         color: Style.colorAccent,
                       ),
                     ),
                     Text(
-                      "DICTIONARIO",
+                      "DICCIONARIO",
                       style: GoogleFonts.headlandOne(
                         fontSize: 10.0,
                         color: Style.colorOnPrimary,

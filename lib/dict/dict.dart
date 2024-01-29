@@ -1,6 +1,6 @@
 import 'package:collection/collection.dart';
 import 'package:diacritic/diacritic.dart';
-import 'package:neolatino_dictionario/dict/dict_entry.dart';
+import 'package:neoromano_diccionario/dict/dict_entry.dart';
 
 class SearchMatch {
   DictionaryEntry entry;

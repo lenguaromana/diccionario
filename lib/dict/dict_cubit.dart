@@ -3,8 +3,8 @@ import 'dart:convert';
 import 'package:csv/csv.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:http/http.dart' as http;
-import 'package:neolatino_dictionario/dict/dict.dart';
-import 'package:neolatino_dictionario/dict/dict_entry.dart';
+import 'package:neoromano_diccionario/dict/dict.dart';
+import 'package:neoromano_diccionario/dict/dict_entry.dart';
 import 'package:oxidized/oxidized.dart';
 
 const dictionaryUrl =

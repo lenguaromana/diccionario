@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 enum Language {
-  LenguaRomana,
+  NeoRomano,
   NeoLatino,
   LatinoInterRomanico,
   Portuguese,
@@ -20,7 +20,7 @@ enum Language {
 
 extension LanguageExt on Language {
   static final languageCode = {
-    Language.LenguaRomana: "lrm",
+    Language.NeoRomano: "lrm",
     Language.NeoLatino: "lat",
     Language.LatinoInterRomanico: "iro",
     Language.Portuguese: "por",
@@ -38,7 +38,7 @@ extension LanguageExt on Language {
   };
 
   static final languageName = {
-    Language.LenguaRomana: "Lengua Romana",
+    Language.NeoRomano: "Neoromano",
     Language.NeoLatino: "Neolatino",
     Language.LatinoInterRomanico: "Interromanico",
     Language.Portuguese: "Portughese",
@@ -56,7 +56,7 @@ extension LanguageExt on Language {
   };
 
   static final languageColor = {
-    Language.LenguaRomana: Colors.red.shade800,
+    Language.NeoRomano: Colors.red.shade800,
     Language.NeoLatino: Colors.deepOrange.shade800,
     Language.LatinoInterRomanico: Colors.deepOrange.shade800,
     Language.Portuguese: Colors.amber.shade700,

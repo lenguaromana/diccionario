@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
-import 'package:neolatino_dictionario/dict/dict_cubit.dart';
+import 'package:neoromano_diccionario/dict/dict_cubit.dart';
 
 class Searchbar extends StatelessWidget {
   final Function? onSubmit;

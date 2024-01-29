@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:neolatino_dictionario/config.dart';
-import 'package:neolatino_dictionario/style.dart';
-import 'package:neolatino_dictionario/widget/page.dart';
-import 'package:neolatino_dictionario/widget/searchbar.dart';
+import 'package:neoromano_diccionario/config.dart';
+import 'package:neoromano_diccionario/style.dart';
+import 'package:neoromano_diccionario/widget/page.dart';
+import 'package:neoromano_diccionario/widget/searchbar.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -14,14 +14,14 @@ class HomePage extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
           Text(
-            "NEOLATINO",
+            "NEOROMANO",
             style: GoogleFonts.headlandOne(
               fontSize: Config.responsiveWidth(context, 80),
               color: Style.colorAccent,
             ),
           ),
           Text(
-            "DICTIONARIO",
+            "DICCIONARIO",
             style: GoogleFonts.headlandOne(
               fontSize: Config.responsiveWidth(context, 25),
               color: Style.colorOnPrimary,
